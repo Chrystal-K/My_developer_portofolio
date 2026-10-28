@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student developer portfolio">
+  <title>Chrystal Kamga| Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">Chrystal Kamga<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">SOFTWARE ENGINEERING STUDENT</p>
+      <h1>Hello, I'm <span>Chrystal Kamga.</span></h1>
+      <p class="hero-copy">I'm learning to build useful, accessible and beautiful digital experiences with code.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">View my work</a>
+        <a class="button secondary" href="#contact">Contact me</a>
+      </div>
+      <div class="hero-note">Currently learning HTML, CSS, JavaScript and software development fundamentals.</div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Curious mind. <span>Growing developer.</span></h2>
+      <p class="section-copy">I'm a Software Engineering student building my skills one project at a time. I enjoy solving problems, learning new technologies and turning ideas into working websites. This portfolio showcases my learning journey and projects.</p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2>My <span>skills</span></h2>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>HTML</h3><p>Structuring clear, meaningful web pages.</p></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>CSS</h3><p>Styling responsive layouts and interfaces.</p></article>
+        <article class="skill-card"><div class="skill-icon">{ }</div><h3>JavaScript</h3><p>Adding interaction and behaviour to websites.</p></article>
+        <article class="skill-card"><div class="skill-icon">↗</div><h3>Git & GitHub</h3><p>Learning version control and publishing projects.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>My <span>projects</span></h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01 / WEB</div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive website introducing me, my skills and my learning journey. Built with HTML, CSS and JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#home" class="text-link">You're viewing it ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02 / FUTURE BUILD</div>
+          <h3>Coming Soon</h3>
+          <p>I'm continuing to practice and will add more projects as i develop my skills.</p>
+          <div class="tags"><span>Learning</span><span>Practice</span></div>
+          <a href="#contact" class="text-link">Ask me about it ↗</a>
+          </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a question or an idea?</h2>
+      <p>I'd be happy to connect about software engineering, learning and future projects.</p>
+      <a class="button light" id="emailLink" href="mailto:chrystalkamga@gmail.com">Email me</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Chrystal Kamga </span>
+    <span>Built with HTML, CSS & JavaScript</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
